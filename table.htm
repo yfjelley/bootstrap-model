@@ -1,6 +1,6 @@
-<!DOCTYPE html>
-<!-- saved from url=(0082)file:///C:/Documents%20and%20Settings/Administrator/%E6%A1%8C%E9%9D%A2/login.html# -->
-<html lang="zh-cn"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"> 
+<!DOCTYPE html> 
+<html lang="zh-cn"> 
+<head> 
 <meta charset="utf-8"> 
 <meta http-equiv="X-UA-Compatible" content="IE=edge"> 
 <meta name="viewport" content="width=device-width, initial-scale=1"> 
@@ -20,160 +20,100 @@
 <script src="http://cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script> 
 <![endif]--> 
 </head> 
-<body> 
-<div class="container-fluid" style="padding:0;"> 
+<body > 
+<div class="container-fluid" style="padding:0; margin:0px;"> 
 <div class="container-fluid" style="padding:0;">
 	<div class="row-fluid">
 		<div class="span12">
-			<ul class="breadcrumb">
+			<ul class="breadcrumb" style="margin:0px">
 				<li>
-					<a href="./table_files/table.htm">长江医院统计部管理系统</a> 
+					<a href="#">长江医院统计部管理系统</a> 
 				</li>
 			</ul>
 		</div>
 	</div>
 </div>
 
-<div class="container-fluid">
+<div class="container-fluid" style="margin:0px; margin-top:20px;">
 	<div class="row-fluid">
-		<div class="col-md-2" style="backgroud:red;">
-       
+		<div class="col-md-2">   
+         <div style="background:#FCC ; margin:0px;padding:15px;"> 
+         <div class="container-fluid" style="margin-top:10px">
+	       <div class="row-fluid" style="padding:10px;">
 			<ul class="nav nav-list">
 				<li class="nav-header">
 					推广站分析表
 				</li>
 				<li class="active">
-					<a href="./table_files/table.htm">明细（日）</a>
+					<a href="#">明细（日）</a>
 				</li>
 				<li>
-					<a href="./table_files/table.htm">站点汇总（日）</a>
+					<a href="#">站点汇总（日）</a>
 				</li>
 				<li>
-					<a href="./table_files/table.htm">明细（周）</a>
+					<a href="#">明细（周）</a>
 				</li>
                 <li>
-					<a href="./table_files/table.htm">站点汇总（周）</a>
+					<a href="#">站点汇总（周）</a>
 				</li>
 				<li class="nav-header">
 					优化站分析表
 				</li>
 				<li>
-					<a href="./table_files/table.htm">明细（日）</a>
+					<a href="#">明细（日）</a>
 				</li>
 				<li>
-					<a href="./table_files/table.htm">站点汇总（日）</a>
+					<a href="#">站点汇总（日）</a>
 				</li>
 
 				<li>
-					<a href="./table_files/table.htm">明细（周）</a>
+					<a href="#">明细（周）</a>
 				</li>
                 <li>
-					<a href="./table_files/table.htm">站点汇总（周）</a>
+					<a href="#">站点汇总（周）</a>
 				</li>
 			</ul>
-            
+            </div>
+            </div>
 		</div>
-        
-		<div class="col-md-10">
-			<table class="table">
-				<thead>
-					<tr>
-						<th>
-							编号
-						</th>
-						<th>
-							编号
-						</th>
-						<th>
-							编号
-						</th>
-						<th>
-							编号
-						</th>
-					</tr>
-				</thead>
-				<tbody>
-					<tr>
-						<td>
-							1
-						</td>
-						<td>
-							TB - Monthly
-						</td>
-						<td>
-							01/04/2012
-						</td>
-						<td>
-							Default
-						</td>
-					</tr>
-					<tr class="success">
-						<td>
-							1
-						</td>
-						<td>
-							TB - Monthly
-						</td>
-						<td>
-							01/04/2012
-						</td>
-						<td>
-							Approved
-						</td>
-					</tr>
-					<tr class="error">
-						<td>
-							2
-						</td>
-						<td>
-							TB - Monthly
-						</td>
-						<td>
-							02/04/2012
-						</td>
-						<td>
-							Declined
-						</td>
-					</tr>
-					<tr class="warning">
-						<td>
-							3
-						</td>
-						<td>
-							TB - Monthly
-						</td>
-						<td>
-							03/04/2012
-						</td>
-						<td>
-							Pending
-						</td>
-					</tr>
-					<tr class="info">
-						<td>
-							4
-						</td>
-						<td>
-							TB - Monthly
-						</td>
-						<td>
-							04/04/2012
-						</td>
-						<td>
-							Call in to confirm
-						</td>
-					</tr>
-				</tbody>
-			</table>
-		</div>
-	
     </div>
+		<div class="col-md-10">
+           <div class="container-fluid" style="margin-top:10px;margin-bottom:10px;margin-right:0;margin-left:0;padding-right:0px;padding-left:0px;" >
+              <div class="row-fluid" >
+
+                    部门 :                   
+                     <select >
+                     <option value="all">所有部门</option>
+                     </select>
+                    媒体 ：
+                       <select>
+                      <option value="all">所有媒体</option>	
+                      </select>
+                      
+					 推广站点 ： 
+                     <select>
+                     <option value="all">所有站点</option>
+                     </select>
+				
+					 地区 : <select>
+                     <option value="all">所有地区</option>
+                     </select>
+			
+					 周 : <select >
+                     <option value="all">所有周</option>	
+                     </select>
+                      <button id="b04" type="submit">确认</button>
+        </div>
+        </div>      
+		</div>
+
+
 </div>
-</div>
+
 <!-- jQuery文件。务必在bootstrap.min.js 之前引入 --> 
-<script src="./table_files/jquery.min.js"></script> 
+<script src="http://cdn.bootcss.com/jquery/1.11.1/jquery.min.js"></script> 
 
 <!-- 最新的 Bootstrap 核心 JavaScript 文件 --> 
-<script src="./table_files/bootstrap.min.js"></script> 
- 
-</body></html>
+<script src="http://cdn.bootcss.com/bootstrap/3.2.0/js/bootstrap.min.js"></script> 
+</body> 
+</html>
